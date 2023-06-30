@@ -16,7 +16,6 @@ some_text = 'Почему применение сотрудниками нейр
 
 
 my_dict = dict()
-#\W — совпадает с не буквенным символом.
 words = re.sub(r'\W', ' ', some_text).lower().split()
 
 for word in words:
